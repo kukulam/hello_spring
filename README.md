@@ -2,13 +2,13 @@
 
 #### Generated with [spring initializr](https://start.spring.io/)
 
-### How to run application?
+### How to build application?
 ```
 mvn install
 java -jar ./target/springhello-0.0.1-SNAPSHOT.jar
 ``` 
 
-### How to copy to the server ?
+### How to copy application's jar to the server ?
 - ``7000`` - server's ssh port
 - ``user`` - server's user
 - ``127.0.0.1`` - server's ip
@@ -22,7 +22,7 @@ scp -p 7000 ./target/springhello-0.0.1-SNAPSHOT.jar user@127.0.0.1:/home/user
 tmux new-session -d -s "springhello" java -jar springhello-0.0.1-SNAPSHOT.jar
 ```
 
-### How to work with tmux ?
+### How to works with tmux ?
 - ``tmux ls`` - show sessions
 - ``tmux a name_of_the_session`` - attach to session
 - ``ctrl + b`` +  ``:detach`` - detach current session
