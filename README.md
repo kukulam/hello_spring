@@ -1,4 +1,4 @@
-# hello_spring
+# spring_hello
 
 #### Generated with [spring initializr](https://start.spring.io/)
 
