@@ -1,4 +1,4 @@
-package com.kukulam.springhello.api;
+package com.kukulam.springhello.api.hello;
 
 class HelloResponse {
     private String message;
