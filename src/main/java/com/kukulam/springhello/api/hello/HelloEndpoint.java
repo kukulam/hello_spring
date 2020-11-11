@@ -1,4 +1,4 @@
-package com.kukulam.springhello.api;
+package com.kukulam.springhello.api.hello;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
