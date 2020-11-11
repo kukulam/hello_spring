@@ -1,4 +1,4 @@
-package com.kukulam.springhello.api;
+package com.kukulam.springhello;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
